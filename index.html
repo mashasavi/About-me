@@ -13,15 +13,21 @@
 <body>
     <header>
         <nav>
-            <!--Здесь в будущем будет лого и меню сайта-->
-            <p><a href="https://www.instagram.com/yourusername" target="_blank">ссылка на инстаграм</a></p>
-            <p><a href="https://www.facebook.com/yourusername" target="_blank">ссылка на фейсбук</a></p>
+            <a class="media" href="https://www.facebook.com" target="_blank ">
+                <i class="fa-brands fa-facebook-f "></i>
+            </a>
+            <a class="media" href="http://t.co" target="_blank ">
+                <i class="fa-brands fa-twitter "></i>
+            </a>
+            <a class="media" href="www.instagram.com " target="_blank ">
+                <i class="fa-brands fa-instagram "></i>
+            </a>
         </nav>
     </header>
     <main>
         <section>
             <h1>Мария Савицкая</h1>
-            <img src="images/masha.jpg" alt="Мария Савицкая">
+            <img src="/img/masha.JPG" alt="Мария Савицкая">
             <p>Мне 37 лет. Я родилась и живу в Минске. У меня большая семья: муж и три дочки.</p>
             <p>Я работаю администратором сайта, добавляю контент. Сейчас решила углубиться в процесс и понять, как все работает изнутри. Поэтому начала учиться в прекрасной школе <a href="https://school.codegirl.ru/public/products">CODEGIRL school</a></p>
         </section>
@@ -34,30 +40,42 @@
                 <li>путешествия</li>
             </ul>
         </section>
-        <section>
+        <section class="hobby">
             <h2>Мои любимые фильмы</h2>
             <p>Вечером после работы предпочитаю расслабиться, просмотрев интересное кино. Я предпочитаю фильмы про любовь.</p>
-            <article>
-                <h3>Один день</h3>
-                <a href="https://www.kinopoisk.ru/film/495518/">
-                    <img src="images/odin-den.png" alt="Один день" width="100">
-                </a>
-                <p>Американская мелодрама 2011 года, режиссёра Лоне Шерфиг. После одной ночи вместе пара встречаются каждый год 15 июля. Мелодрама о чувствах, пронесенных сквозь время.</p>
-            </article>
-            <article>
-                <h3>Свадьба лучшего друга</h3>
-                <p>Американский романтический комедийный фильм Пи Джея Хогана. 9 лет назад Джулианна Поттер и Майкл О`Нил заключили соглашение: если до 28 лет они не влюбятся, то поженятся между собой.</p>
-                <a href="https://www.kinopoisk.ru/film/2768/">
-                    <img src="images/svadba-luchshego-druga.png" alt="Свадьба лучшего друга" width="100">
-                </a>
-            </article>
+            <div class="wrapper">
+                <article class="movie">
+                    <h3>Один день</h3>
+                    <p>Американская мелодрама 2011 года, режиссёра Лоне Шерфиг. После одной ночи вместе пара встречаются каждый год 15 июля. Мелодрама о чувствах, пронесенных сквозь время.</p>
+                    <a href="https://www.kinopoisk.ru/film/495518/">
+                        <img src="/img/odin-den.png" alt="Один день" width="100">
+                    </a>
+                </article>
+                <article class="movie">
+                    <h3>Свадьба лучшего друга</h3>
+                    <p>Американский романтический комедийный фильм Пи Джея Хогана. 9 лет назад Джулианна Поттер и Майкл О`Нил заключили соглашение: если до 28 лет они не влюбятся, то поженятся между собой.</p>
+                    <a href="https://www.kinopoisk.ru/film/2768/">
+                        <img src="/img/svadba-luchshego-druga.png" alt="Свадьба лучшего друга" width="100">
+                    </a>
+                </article>
+            </div>
         </section>
         <!-- <aside>Здесь в будущем будет интересная новость или реклама</aside> -->
     </main>
     <footer>
-        <p><a href="https://www.instagram.com/yourusername">ссылка на инстаграм</a></p>
-        <p><a href="https://www.facebook.com/yourusername">ссылка на фейсбук</a></p>
+        <div>
+            <a class="media" href="https://www.facebook.com" target="_blank ">
+                <i class="fa-brands fa-facebook-f "></i>
+            </a>
+            <a class="media" href="http://t.co" target="_blank ">
+                <i class="fa-brands fa-twitter "></i>
+            </a>
+            <a class="media" href="www.instagram.com " target="_blank ">
+                <i class="fa-brands fa-instagram "></i>
+            </a>
+        </div>
     </footer>
+    <script src="/script.js"></script>
 </body>
 
 </html>
